@@ -1,0 +1,9 @@
+{
+    "sdk": {
+      "version": "8.0.408"
+    },
+    "msbuild-sdks": {
+      "Aspire.AppHost.Sdk": "8.2.2"
+    }
+  }
+  

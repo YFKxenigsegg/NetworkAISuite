@@ -1,0 +1,29 @@
+# .NET
+bin/
+obj/
+*.user
+*.suo
+*.vs/
+
+# Aspire Temp
+**/AspireHostingTemp*/**
+
+# Python
+NetworkAnalyzer/__pycache__/
+NetworkAnalyzer/*.pyc
+NetworkAnalyzer/*.pyo
+NetworkAnalyzer/venv/
+NetworkAnalyzer/.venv/
+NetworkAnalyzer/.env
+
+# Docker
+**/Dockerfile.tmp
+docker-compose.override.yml
+
+# System
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

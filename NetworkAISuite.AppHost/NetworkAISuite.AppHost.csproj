@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <IsAspireHost>true</IsAspireHost>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NetworkAISuite.ApiService\NetworkAISuite.ApiService.csproj" />
+    <ProjectReference Include="..\NetworkAISuite.Web\NetworkAISuite.Web.csproj" />
+    <ProjectReference Include="..\TrafficCollector\TrafficCollector.csproj" />
+    <ProjectReference Include="..\ReportGenerator\ReportGenerator.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspire.Hosting.AppHost" Version="8.2.2" />
+  </ItemGroup>
+
+</Project>
