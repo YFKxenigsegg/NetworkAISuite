@@ -7,8 +7,18 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Aspire.Hosting" Version="9.2.1" />
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.15" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.8.1" />
+    <PackageReference Include="Confluent.Kafka" Version="2.11.0" />
+    <PackageReference Include="Lextm.SharpSnmpLib" Version="12.5.2" />
+    <PackageReference Include="Microsoft.Extensions.Diagnostics.HealthChecks" Version="8.0.15" />
+    <PackageReference Include="AspNetCore.HealthChecks.UI.Client" Version="8.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="8.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.EnvironmentVariables" Version="8.0.1" />
+    <PackageReference Include="Serilog.Extensions.Hosting" Version="8.0.0" />
+    <PackageReference Include="Serilog.Sinks.Console" Version="6.0.0" />
+    <PackageReference Include="Serilog.Sinks.File" Version="6.0.0" />
+    <PackageReference Include="Aspire.Hosting.AppHost" Version="9.2.1" />
   </ItemGroup>
 
 </Project>
